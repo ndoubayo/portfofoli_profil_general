@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Francky Créas — design graphique, communication digitale et développement web.">
+  <meta name="theme-color" content="#142B45">
+  <title>Francky Créas — Portfolio créatif</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="./assets/images/icon-digi-porfolio.png">
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Francky Créas, accueil">
+      <img src="./assets/images/logo-digi-portfolio.png" alt="logo" class="logo" />
+    </a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#accueil" class="nav-link active">Accueil</a>
+      <a href="#apropos" class="nav-link">À propos</a>
+      <a href="#expertises" class="nav-link">Expertises</a>
+      <a href="#realisations" class="nav-link">Réalisations</a>
+      <a href="#contact" class="nav-link nav-contact">Me contacter <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="accueil">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> DESIGN · DIGITAL · WEB</p>
+        <h1>Je transforme<br>les idées en <em>expériences</em><span class="dot">.</span></h1>
+        <p class="hero-lead">Je conçois des identités visuelles, des contenus digitaux et des expériences web qui donnent du sens aux marques.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#realisations">Découvrir mes projets <span>↓</span></a>
+          <a class="button button-clair" href="#apropos">En savoir plus <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="status-dot"></i> Disponible pour de nouvelles collaborations</span>
+          <span>N'Djamena, Tchad</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <!-- Remplace profile.jpg par ton portrait -->
+          <img src="assets/images/Portrait optimiste sur fond transparent.png" alt="Portrait de Franklin" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+          <div class="image-placeholder portrait-placeholder"><span>Ajoute ton portrait<br><small>assets/images/profile.jpg</small></span></div>
+        </div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="floating-note note-top"><span>✳</span> Créativité sans frontières</div>
+        <div class="floating-note note-bottom"><b>3+</b><span>domaines<br>d'expertise</span></div>
+        <span class="hero-index">01 / 05</span>
+      </div>
+      <a class="scroll-cue" href="#apropos"><span></span> FAIRE DÉFILER</a>
+    </section>
+
+    <section class="about section-wrap section-space" id="apropos">
+      <div class="section-kicker reveal"><span>01 — QUI SUIS-JE ?</span><span class="kicker-line"></span></div>
+      <div class="about-grid">
+        <div class="about-heading reveal">
+          <h2>Un esprit créatif,<br><em>une approche</em><br>polyvalente.</h2>
+          <div class="about-stamp">FC<br><span>EST. 2024</span></div>
+        </div>
+        <div class="about-content reveal">
+          <p class="big-copy">Je suis Franklin, créatif et passionné par les possibilités qu'offre le numérique.</p>
+          <p>Mon travail se situe à la rencontre du design, de la communication et de la technologie. J'aime comprendre un besoin, imaginer une réponse pertinente et la transformer en un résultat concret, cohérent et utile.</p>
+          <p>Curieux et autonome dans mon apprentissage, je développe mes compétences à travers les projets, l'expérimentation et la collaboration.</p>
+          <a class="text-link underline-link" href="#contact">Parlons de ton projet <span>↗</span></a>
+        </div>
+      </div>
+      <div class="values-row reveal">
+        <div><span>01</span><b>Créativité</b><small>Des idées qui ont du sens.</small></div>
+        <div><span>02</span><b>Cohérence</b><small>Le fond et la forme, ensemble.</small></div>
+        <div><span>03</span><b>Curiosité</b><small>Apprendre, tester, évoluer.</small></div>
+      </div>
+    </section>
+
+    <section class="expertise section-space" id="expertises">
+      <div class="section-wrap">
+        <div class="section-kicker reveal"><span>02 — CE QUE JE FAIS</span><span class="kicker-line"></span></div>
+        <div class="section-heading reveal">
+          <h2>Des compétences<br><em>complémentaires.</em></h2>
+          <p>Trois univers, une même intention : créer des solutions visuelles et digitales adaptées à chaque besoin.</p>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card reveal">
+            <div class="card-top"><span>01 / DESIGN</span><span class="card-icon">✳</span></div>
+            <h3>Design<br>graphique</h3>
+            <p>Construire une identité visuelle forte et traduire les idées en supports de communication clairs et mémorables.</p>
+            <ul><li>Identité visuelle & branding</li><li>Affiches et supports print</li><li>Design publicitaire</li><li>Présentations & mise en page</li></ul>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="expertise-card expertise-featured reveal">
+            <div class="card-top"><span>02 / COMMUNICATION</span><span class="card-icon">◎</span></div>
+            <h3>Community<br>management</h3>
+            <p>Développer une présence digitale cohérente, créer du lien avec les communautés et valoriser les marques.</p>
+            <ul><li>Stratégie de contenu</li><li>Calendrier éditorial</li><li>Création & rédaction</li><li>Animation des réseaux sociaux</li></ul>
+            <span class="card-arrow">↗</span>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="card-top"><span>03 / TECHNOLOGIE</span><span class="card-icon">⌘</span></div>
+            <h3>Développement<br>web</h3>
+            <p>Créer des interfaces web accessibles, structurées et pensées pour offrir une expérience fluide.</p>
+            <ul><li>Sites vitrines & portfolios</li><li>Intégration HTML / CSS / JS</li><li>WordPress & Elementor</li><li>Interfaces responsive</li></ul>
+            <span class="card-arrow">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="selected-work section-wrap section-space" id="realisations">
+      <div class="section-kicker reveal"><span>03 — SÉLECTION DE PROJETS</span><span class="kicker-line"></span></div>
+      <div class="section-heading work-heading reveal">
+        <h2>Du concret.<br><em>Du créatif.</em></h2>
+        <p>Quelques projets et explorations qui illustrent mon approche. Remplace les exemples par tes réalisations et leurs visuels.</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Filtrer les réalisations">
+        <button class="filter-btn active" data-filter="all">Tout voir <span>06</span></button>
+        <button class="filter-btn" data-filter="design">Design graphique</button>
+        <button class="filter-btn" data-filter="social">Communication digitale</button>
+        <button class="filter-btn" data-filter="web">Développement web</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-large reveal" data-category="design">
+          <a href="#contact" class="project-image">
+            <img src="assets/images/project-branding.jpg" alt="Projet d'identité visuelle" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="image-placeholder"><span>Visuel projet 01<br><small>project-branding.jpg</small></span></div>
+            <span class="project-open">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-type">IDENTITÉ VISUELLE</span><h3>Branding & direction artistique</h3></div><span class="project-year">2026</span></div>
+        </article>
+        <article class="project-card reveal" data-category="web">
+          <a href="#contact" class="project-image">
+            <img src="assets/images/project-website.jpg" alt="Projet de conception web" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="image-placeholder"><span>Visuel projet 02<br><small>project-website.jpg</small></span></div>
+            <span class="project-open">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-type">WEB DESIGN & DÉVELOPPEMENT</span><h3>Site web institutionnel</h3></div><span class="project-year">2026</span></div>
+        </article>
+        <article class="project-card reveal" data-category="social">
+          <a href="#contact" class="project-image">
+            <img src="assets/images/project-social.jpg" alt="Campagne de communication digitale" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="image-placeholder"><span>Visuel projet 03<br><small>project-social.jpg</small></span></div>
+            <span class="project-open">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-type">COMMUNICATION DIGITALE</span><h3>Campagne & contenus sociaux</h3></div><span class="project-year">2025</span></div>
+        </article>
+        <article class="project-card reveal" data-category="design">
+          <a href="#contact" class="project-image">
+            <img src="assets/images/project-print.jpg" alt="Supports de communication imprimés" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="image-placeholder"><span>Visuel projet 04<br><small>project-print.jpg</small></span></div>
+            <span class="project-open">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-type">DESIGN GRAPHIQUE</span><h3>Supports print & publicitaires</h3></div><span class="project-year">2025</span></div>
+        </article>
+        <article class="project-card project-large reveal" data-category="web">
+          <a href="#contact" class="project-image">
+            <img src="assets/images/project-interface.jpg" alt="Maquette d'interface web" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="image-placeholder"><span>Visuel projet 05<br><small>project-interface.jpg</small></span></div>
+            <span class="project-open">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-type">UI DESIGN</span><h3>Interface & expérience utilisateur</h3></div><span class="project-year">2025</span></div>
+        </article>
+        <article class="project-card reveal" data-category="social">
+          <a href="#contact" class="project-image">
+            <img src="assets/images/project-content.jpg" alt="Production de contenus" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="image-placeholder"><span>Visuel projet 06<br><small>project-content.jpg</small></span></div>
+            <span class="project-open">↗</span>
+          </a>
+          <div class="project-info"><div><span class="project-type">CRÉATION DE CONTENU</span><h3>Contenus & storytelling</h3></div><span class="project-year">2025</span></div>
+        </article>
+      </div>
+      <p class="portfolio-note">Les projets affichés sont des emplacements de démonstration : ajoute tes propres images, descriptions et liens.</p>
+    </section>
+
+    <section class="experience section-space">
+      <div class="section-wrap">
+        <div class="section-kicker reveal"><span>04 — PARCOURS & COLLABORATIONS</span><span class="kicker-line"></span></div>
+        <div class="experience-grid">
+          <div class="reveal"><h2>Le travail<br>se construit<br><em>ensemble.</em></h2><p class="experience-intro">Chaque collaboration est une occasion d'apprendre, de partager des idées et de produire quelque chose d'utile.</p></div>
+          <div class="timeline reveal">
+            <div class="timeline-item"><span class="timeline-date">EXPÉRIENCE PROFESSIONNELLE</span><h3>Webmaster & créatif digital</h3><p>Manara Productions · N'Djamena</p><small>Gestion web, communication digitale, création graphique et accompagnement de projets.</small></div>
+            <div class="timeline-item"><span class="timeline-date">MISSIONS & COLLABORATIONS</span><h3>Designer graphique & communicant</h3><p>Projets indépendants · Freelance</p><small>Conception de visuels, identités de marque, contenus et supports de communication.</small></div>
+            <div class="timeline-item"><span class="timeline-date">EN CONTINU</span><h3>Développement & exploration web</h3><p>Projets personnels et professionnels</p><small>Conception de sites web, intégration front-end et apprentissage par la pratique.</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap section-space" id="contact">
+      <div class="contact-panel reveal">
+        <div class="section-kicker"><span>05 — ET SI ON CRÉAIT ENSEMBLE ?</span><span class="kicker-line"></span></div>
+        <h2>Une idée en tête ?<br><em>Faisons-la exister.</em></h2>
+        <p>Un projet, une collaboration ou simplement envie d'échanger ? Ma boîte de réception est ouverte.</p>
+        <a class="button button-light" href="mailto:tonadresse@email.com">Parlons de ton projet <span>↗</span></a>
+        <div class="contact-decoration">FC.</div>
+      </div>
+      <footer class="footer">
+        <a class="brand footer-brand" href="#accueil"><img src="./assets/images/logo-digi-portfolio.png" alt="logo" class="logo" /></a>
+        <span>© <span id="year"></span> Francky Créas. Tous droits réservés.</span>
+        <div class="social-links"><a href="#" aria-label="LinkedIn">LinkedIn ↗</a><a href="#" aria-label="Behance">Behance ↗</a><a href="#" aria-label="Instagram">Instagram ↗</a></div>
+        <a class="back-top" href="#accueil" aria-label="Retour en haut">↑</a>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
