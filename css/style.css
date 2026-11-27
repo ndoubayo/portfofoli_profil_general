@@ -1019,6 +1019,20 @@ h2 {
     padding : 50px;
 }
 
+@media (max-width: 900px) {
+
+    .fil-rouge-hero {
+       grid-template-columns: 1fr;
+       margin: auto;
+    }
+    .fil-rouge-hero h1{
+      font-size: 25px;
+    }
+
+  
+
+}
+
 .fil-rouge-hero div{
   display: grid;
   gap: 2rem;
